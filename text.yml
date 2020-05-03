@@ -2338,7 +2338,7 @@ mainMenuMainMenuPanel:
 
   reviewPopup:
     header:
-      text: "$CYA1Envie d'écrire une revue"
+      text: "$CYA1Envie d'écrire un avis?"
     subHeader:
       text: "$GRE1Aimez-vous Rise to Ruins ?"
     body:
@@ -2347,7 +2347,7 @@ mainMenuMainMenuPanel:
       hide:
         text: "Fermer"
       goReview:
-        text: "Écrire une revue !"
+        text: "Écrire un avis !"
 
   twitchPopup:
     header:
@@ -3181,7 +3181,7 @@ mapEditorPlayRightPanel:
       carrots:
         text: "Carottes"
       holyPotatoes:
-        text: "Patates magiques"        
+        text: "Patates magiques"
       melons:
         text: "Melons"
         forceCount: "true"
@@ -4310,6 +4310,10 @@ playPopulationListPanel:
       text: "Enceinte"
     pregnant:
       text: "Ce villageois (qu'on espère être une femme) est enceinte et va probablement donner naissance quelques jours après la conception."
+    blessedHeader:
+      text: "Béni"
+    blessed:
+      text: "Ce villageois a été béni des dieux, et de sa prochaine progéniture naîtra un nephilim, une enfant béni."
     hasMateHeader:
       text: "En couple"
     hasMate:
@@ -5116,7 +5120,7 @@ playSpellSelectPanel:
   offensive:
     text: "$RED1Offensif"
   utility:
-    text: "Utility"
+    text: "Utilitaire"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
@@ -6518,8 +6522,7 @@ worldMapGameModeSelectPanel:
     peaceful:
       text: "Paisible"
     custom:
-      text: "Custom"
-      forceCount: "true"
+      text: "Personnalisé"
     sandbox:
       text: "Bac à sable"
 
@@ -6533,8 +6536,7 @@ worldMapGameModeSelectPanel:
     peaceful:
       text: "$GRE1Paisible"
     custom:
-      text: "$CYA1Custom"
-      forceCount: "true"
+      text: "$CYA1Personnalisé"
     sandbox:
       text: "$BLU1Bac à sable"
     selectGameMode:
@@ -7135,7 +7137,7 @@ spell:
       revision: "1"
   construct:
     name:
-      text: "Construct"
+      text: "Construction"
     description:
       text: "Utilise vos pouvoirs divins pour aider à la construction de bâtiments, mais nécessite que les ressources soient déjà livrées sur le site de construction."
   dispelGodStructure:
@@ -11378,8 +11380,7 @@ gameMode:
   peaceful:
     text: "Paisible"
   custom:
-    text: "Custom"
-    forceCount: "true"
+    text: "Personnalisé"
   sandbox:
     text: "Bac à sable"
   mainMenu:
