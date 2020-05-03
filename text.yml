@@ -352,6 +352,16 @@ perkType:
     text: "Transport de ressources maximal"
   fertility:
     text: "Fertilité"
+  ghostAppearanceChance:
+    text: "Chance d'apparaitre en fantôme"
+  villagerColdResistance:
+    text: "Résistance au froid des villageois"
+  villagerHeatResistance:
+    text: "Résistance au chaud des villageois"
+  villagerLifespans:
+    text: "Durée de vie des villageois"
+  wiserElders:
+    text: "Anciens les plus sages"
   improvedStorage:
     text: "Stockage amélioré"
   efficientHousing:
@@ -402,6 +412,22 @@ perkType:
     text: "Capacité des golems de cristal"
   crystalGolemChargeTime:
     text: "Temps de chargement des golems de cristal"
+  buildingSlots:
+    text: "capacité de construction"
+  ancillarySlots:
+    text: "capacité de construction d'entrepôt"
+  marketRestockAmount:
+    text: "Montant de réapprovisionnement du marché"
+  marketCatjeetCapacity:
+    text: "Capacité du marché Catjeet"
+  essenceCollectorCapacity:
+    text: "Capacité du collecteur d'essence"
+  efficientTrashBurning:
+    text: "Combustion efficace des déchets"
+  buildingHealth:
+    text: "Santé des construction"
+  increasedCullisGateStability:
+    text: "Augmentation de la stabilité du portail Cullis"
   attractTowerRange:
     text: "Portée des tours attractives"
   attractTowerFireRate:
@@ -464,8 +490,164 @@ perkType:
     text: "Coût énergétique des tours statiques"
   towerStorage:
     text: "Capacité de stockage des tours"
-  spellCost:
-    text: "Coût des sorts"
+  holyGolemLevel:
+    text: "Niveau du saint-golem"
+  laborGolemLevel:
+    text: "Niveau du golem ouvrier"
+  holyGolemSpeed:
+    text: "vitesse du saint-golem"
+  laborGolemMaximumCarriedResources:
+    text: "Capacité de transport maximale du golem ouvrier"
+  moreInfluencePerVillager:
+    text: "Plus d'influence par villageois"
+  increasedInfluenceGeneration:
+    text: "Génération d'influence augmenté"
+  banishSpellCost:
+    text: "Coût du sort de bannissement"
+  banishSpellCooldown:
+    text: "Temps de recharge du sort de bannissement"
+  banishSpellDuration:
+    text: "Durée du sort de bannissement"
+  banishSpellRadius:
+    text: "Portée du sort de bannissement"
+  charmSpellCost:
+    text: "Coût du sort de Charme"
+  charmSpellCooldown:
+    text: "Temps de recharge du sort de charme"
+  coldAuraSpellCost:
+    text: "Coût du sort d'Aura glaciale"
+  coldAuraSpellCooldown:
+    text: "Temps de recharge d'Aura glaciale"
+  coldAuraSpellDuration:
+    text: "Durée d'Aura glaciale"
+  coldAuraSpellRadius:
+    text: "Portée du sort d'Aura glaciale"
+  conjureMaterialSpellCost:
+    text: "Coût du sort d'invocation des matériaux"
+  conjureMaterialSpellAmount:
+    text: "Quantité invoqué du sort d'invocation des matériaux"
+  constructSpellCost:
+    text: "Coût du sort de construction"
+  constructSpellCooldown:
+    text: "Temps de recharge du sort de construction"
+  constructSpellDuration:
+    text: "Durée du sort de construction"
+  constructSpellRadius:
+    text: "Portée du sort de construction"
+  dissolveSpellCost:
+    text: "Coût du sort de dissolution"
+  dissolveSpellCooldown:
+    text: "Temps de recharge du sort de dissolution"
+  dissolveSpellDuration:
+    text: "Durée du sort de dissolution"
+  dissolveSpellRadius:
+    text: "Portée du sort de dissolution"
+  divineBlessingSpellCost:
+    text: "Coût du sort de bénédiction divine"
+  divineBlessingSpellCooldown:
+    text: "Temps de recharge du sort de bénédiction divine"
+  earthquakeSpellCost:
+    text: "Coût du sort de tremblement de terre"
+  earthquakeSpellCooldown:
+    text: "Temps de recharge du sort de tremblement de terre"
+  flameSpellCost:
+    text: "Coût du sort de flammes"
+  godTowerSpellCost:
+    text: "Coût du sort de tour magique"
+  godWallSpellCost:
+    text: "Coût du sort de mur magique"
+  harvestSpellCost:
+    text: "Coût du sort de récolte"
+  harvestSpellCooldown:
+    text: "Temps de recharge du sort de récolte"
+  harvestSpellDuration:
+    text: "Durée du sort de récolte"
+  harvestSpellRadius:
+    text: "Portée du sort de récolte"
+  healingAuraSpellCost:
+    text: "Coût du sort d'aura de soin"
+  healingAuraSpellCooldown:
+    text: "Temps de recharge du sort d'aura de soin"
+  healingAuraSpellDuration:
+    text: "Durée du sort d'aura de soin"
+  healingAuraSpellRadius:
+    text: "Portée du sort d'aura de soin"
+  holyPotatoesSpellCost:
+    text: "Coût du sort de patates magiques"
+  holyPotatoesSpellCooldown:
+    text: "Temps de recharge du sort de patates magiques"
+  holyPotatoesSpellDuration:
+    text: "Durée du sort de patates magiques"
+  holyPotatoesSpellRadius:
+    text: "Portée du sort de patates magiques"
+  holyWoodSpellCost:
+    text: "Coût du sort de bois magiques"
+  holyWoodSpellCooldown:
+    text: "Temps de recharge du sort de bois magiques"
+  holyWoodSpellDuration:
+    text: "Durée du sort de bois magiques"
+  holyWoodSpellRadius:
+    text: "Portée du sort de bois magiques"
+  illuminateSpellCost:
+    text: "Coût du sort de lumière"
+  illuminateSpellDuration:
+    text: "Durée du sort de lumière"
+  illuminateSpellRadius:
+    text: "Portée du sort de lumière"
+  lightningBoltSpellCost:
+    text: "Coût du sort d'éclair"
+  magicBoltsSpellCost:
+    text: "Coût du sort de projectile magique"
+  magicBoltsSpellCount:
+    text: "Nombre de projectiles magiques"
+  mendSpellCost:
+    text: "Coût du sort de réparation"
+  mendSpellDuration:
+    text: "Durée du sort de réparation"
+  mendSpellRadius:
+    text: "Portée du sort de réparation"
+  meteorSpellCost:
+    text: "Coût du sort de météorite"
+  meteorSpellAmount:
+    text: "Nombre de météorites"
+  motivateLandSpellCost:
+    text: "Coût du sort de motivation de la terre"
+  motivateLandSpellCooldown:
+    text: "Temps de recharge du sort de motivation de la terre"
+  motivateLandSpellDuration:
+    text: "Durée du sort de motivation de la terre"
+  motivateLandSpellRadius:
+    text: "Portée du sort de motivation de la terre"
+  recallSpellCost:
+    text: "Coût du sort de rappel"
+  recallSpellCooldown:
+    text: "Temps de recharge du sort de rappel"
+  recallSpellDuration:
+    text: "Durée du sort de rappel"
+  recallSpellRadius:
+    text: "Portée du sort de rappel"
+  regenerationSpellCost:
+    text: "Coût du sort de régénération"
+  regenerationSpellDuration:
+    text: "Durée du sort de régénération"
+  ressurectSpellCost:
+    text: "Coût du sort de résurrection"
+  ressurectSpellCooldown:
+    text: "Temps de recharge du sort de résurrection"
+  resurrectSpellSuccessChance:
+    text: "Chance de réussite du sort de résurrection"
+  stormSpellCost:
+    text: "Coût du sort de tempête"
+  stormSpellCooldown:
+    text: "Temps de recharge du sort de tempête"
+  holyGolemSpellCost:
+    text: "Coût du sort de saint-golem"
+  holyGolemSpellCooldown:
+    text: "Temps de recharge du sort de saint-golem"
+  laborGolemSpellCost:
+    text: "Coût du sort de golem-ouvrier"
+  laborGolemSpellCooldown:
+    text: "LaTemps de recharge du sort de golem-ouvrier"
   holyGolemLevel:
     text: "Niveau des saints-golems"
   laborGolemLevel:
@@ -486,10 +668,10 @@ perkType:
     text: "Vitesse de décomposition des ressources"
   moreLootinLootBoxes:
     text: "Plus de butin dans les coffres à butin"
-  spellDamage:
-    text: "Dégâts des sorts"
-  towerDamage:
-    text: "Dégâts des tours"
+  toolDurability:
+    text: "Durabilité des outils"
+  foodAndWaterValue:
+    text: "Valeur des aliments et de l'eau"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Perk Module
@@ -500,6 +682,11 @@ perkType:
 perk:
   comment: "Perk Module - Perk Names"
   javaClass: "rtr.PerkModule.java"
+
+  # This is used for perk descriptions that reduce seconds for things like cooldowns and durations
+  # For example; "-1.5 Seconds Banish Cooldown"
+  seconds:
+    text: "secondes"
 
   farellesConstitution:
     text: "Constitution de Farelle"
@@ -2662,6 +2849,8 @@ mapEditorPlayRightPanel:
         text: "Défense"
       foodAndWater:
         text: "Nourriture et eau"
+      gatesAndWalls:
+        text: "Portillons et murs"
       harvesting:
         text: "Récolte"
       housing:
@@ -2678,8 +2867,6 @@ mapEditorPlayRightPanel:
         text: "Stockage"
       trash:
         text: "Ordures"
-      walls:
-        text: "Murs"
       special:
         text: "Spécial"
 
@@ -2782,6 +2969,26 @@ mapEditorPlayRightPanel:
       well:
         text: "Puits"
 
+    gatesAndWalls:
+      gates:
+        text: "Portillons"
+      walls:
+        text: "Murs"
+
+    gates:
+      crylithiumWallGateNS:
+        text: "Portillon en Crylithium (N/S)"
+      crylithiumWallGateWE:
+        text: "Portillon en Crylithium (O/E)"
+      stoneWallGateNS:
+        text: "Portillon en pierre (N/S)"
+      stoneWallGateWE:
+        text: "Portillon en pierre (O/E)"
+      woodFenceGateNS:
+        text: "Portillon en bois (N/S)"
+      woodFenceGateWE:
+        text: "Portillon en bois (O/E)"
+
     harvesting:
       crystalHarvestry:
         text: "Exploitation de cristaux"
@@ -2867,22 +3074,18 @@ mapEditorPlayRightPanel:
         text: "Tas de déchets"
 
     walls:
+      crylithiumWall:
+        text: "Muret de Crylithium"
+      crylithiumCurtainWall:
+        text: "Muraille en Crylithium"
       curtainWall:
         text: "Muraille"
-      stoneWallGateNS:
-        text: "Portillon en pierre (N/S)"
-      stoneWallGateWE:
-        text: "Portillon en pierre (O/E)"
       stoneWall:
         text: "Muret de pierre"
       trashyCubeWall:
         text: "Muret de déchets"
       woodFence:
         text: "Clôture en bois"
-      woodFenceGateNS:
-        text: "Portillon en bois (N/S)"
-      woodFenceGateWE:
-        text: "Portillon en bois (O/E)"
 
     special:
       camp:
@@ -2977,6 +3180,8 @@ mapEditorPlayRightPanel:
         forceCount: "true"
       carrots:
         text: "Carottes"
+      holyPotatoes:
+        text: "Patates magiques"        
       melons:
         text: "Melons"
         forceCount: "true"
@@ -3086,6 +3291,12 @@ mapEditorPlayRightPanel:
         text: "Souches vertes"
       greenTrees:
         text: "Arbres verts"
+      lavenderDeadTrees:
+        text: "Arbres morts de couleur lavande"
+      lavenderStumps:
+        text: "Souches couleur lavande"
+      lavenderTrees:
+        text: "Arbres couleur lavande"
       redDeadTrees:
         text: "Arbres rouges morts"
       redStumps:
@@ -3677,11 +3888,11 @@ playLeftPanel:
       villageStockPriceHeader:
         text: "Prix des articles du village"
       catjeetStockPriceHeader:
-        text: "Prix des articles du paysan"
+        text: "Prix des articles des vendeurs catjeet"
       villageStockHeader:
         text: "Stock du village"
       catjeetStockHeader:
-        text: "Stock du paysan"
+        text: "Stock des vendeurs catjeet"
       priceHeader:
         text: "Prix"
       laborerStockHeader:
@@ -3700,7 +3911,7 @@ playLeftPanel:
     buyAmountAndPrice:
       text: "$GRE1{amount} $WHI0à {price}"
     catjeetLaborersHeader:
-      text: "Main-d'œuvre paysanne"
+      text: "Main-d'œuvre catjeet"
     noLaborers:
       text: "Pas de paysan"
 
@@ -4071,6 +4282,10 @@ playPopulationListPanel:
       text: "Total de femmes enceintes"
     totalPregnant:
       text: "Le nombre de villageoises qui sont enceintes dans le village."
+    totalBlessedHeader:
+      text: "Total de villageois bénis"
+    totalBlessed:
+      text: "Le nombre de villageois du village qui sont bénis."
     totalMatesHeader:
       text: "En couple"
     totalMates:
@@ -4399,6 +4614,10 @@ playSelectedMobPanel:
       text: "Enceinte"
     pregnant:
       text: "Cette créature (qu'on espère être une femme) est enceinte et va probablement donner naissance quelques jours après la conception."
+    blessedHeader:
+      text: "Béni"
+    blessed:
+      text: "Ce villageois a été béni des dieux, et de sa prochaine progéniture naîtra un nephilim, une enfant béni."
     levelHeader:
       text: "Niveau"
     level:
@@ -4475,6 +4694,8 @@ playSelectedMobPanel:
     text: "{mobJobName}" ##REMOVED "THE"
   pregnant:
     text: "$BLU1Enceinte"
+  blessed:
+    text: "$MAG1Béni"
   damageResistance:
     text: "Résistance aux dégâts"
   damageVulnerabilities:
@@ -4851,6 +5072,54 @@ playSpellBar:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Play State
+# Spell Description Panel
+# rtr.gui.states.playstate.SpellDescriptionPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+playSpellDescriptionPanel:
+  comment: "Play State - Spell Description Panel"
+  javaClass: "rtr.gui.states.playstate.SpellDescriptionPanel.java"
+
+  notEnoughMaximumInfluence:
+    text: "$RED1Influence maximale insuffisante"
+  duration:
+    text: "Durée: $GRE1{amount} Secondes"
+  radius:
+    text: "Portée: $GRE1{amount}"
+  castCost:
+    text: "Coût: $GRE1{amount} ({percentage}% d'influence)"
+  castCostCantCast:
+    text: "Coût: $RED1{amount} ({percentage}% d'influence)"
+  maintainCost:
+    text: "Coût de maintien: $GRE1{amount} ({percentage}% d'influence)"
+  maintainCostCantMaintain:
+    text: "Coût de maintien: $RED1{amount} ({percentage}% d'influence)"
+  cooldown:
+    text: "Temps de recharge: $GRE1{amount} Secondes"
+  continuousCast:
+    text: "$GRE1Incantation continue"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
+# Spell Select Panel
+# rtr.gui.states.playstate.SpellSelectPanel.java
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+playSpellSelectPanel:
+  comment: "Play State - Spell Select Panel"
+  javaClass: "rtr.gui.states.playstate.SpellSelectPanel.java"
+
+  aid:
+    text: "$GRE1Aide"
+  defensive:
+    text: "$BLU1Defensif"
+  offensive:
+    text: "$RED1Offensif"
+  utility:
+    text: "Utility"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Play State
 # Statistics Panel
 # rtr.gui.states.playstate.StatisticsPanel.java
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -4898,7 +5167,7 @@ playStatisticsPanel:
       needs:
         text: "Besoins"
       catjeetHired:
-        text: "Paysans employés"
+        text: "Catjeets employés"
       nomadsJoined:
         text: "Arrivées de nomades"
       nomadsVisited:
@@ -5036,7 +5305,7 @@ playStatisticsPanel:
       deaths:
         text: "Combien de villageois sont morts chaque jour."
       catjeetHired:
-        text: "Combien de paysans ont été recrutés chaque jour."
+        text: "Combien de catjeets ont été recrutés chaque jour."
       nomadsJoined:
         text: "Combien de nomades ont rejoint le village chaque jour."
       nomadsVisited:
@@ -6841,6 +7110,10 @@ influence:
       text: "Vous ne pouvez pas lancer de sorts dans le vide !"
     inCorruption:
       text: "Vous n'avez aucun pouvoir ici !"
+    notCooledDown:
+      text: "Le sort n'est pas rechargé!"
+    canNotMaintain:
+      text: "Impossible de maintenir le sort!"
     noInfluence:
       text: "Pas assez d'influence !"
 
@@ -6860,11 +7133,31 @@ spell:
     description:
       text: "Bannissez vos ennemis à un endroit aléatoire à l'extérieur de votre village! Attention, parfois ils peuvent être téléportés dans un endroit indésirable."
       revision: "1"
+  construct:
+    name:
+      text: "Construct"
+    description:
+      text: "Utilise vos pouvoirs divins pour aider à la construction de bâtiments, mais nécessite que les ressources soient déjà livrées sur le site de construction."
+  dispelGodStructure:
+    name:
+      text: "Dissiper une structure magique"
+    description:
+      text: "Dissipez une structure précédemment invoquée pour retrouver une partie de votre influence maximale."
+  dispelGolem:
+    name:
+      text: "Dissiper un Golem"
+    description:
+      text: "Dissipez un golem précédemment invoqué ou combobulé. Fonctionnera sur n'importe quel golem du village, y compris ceux que vous n'avez pas invoqué vous-même. Habituellement utilisé pour dissiper les saints-golems ou les golems ouvriers pour retrouver une partie de votre influence maximale."
   dissolve:
     name:
       text: "Dissoudre"
     description:
       text: "Dissout les ressources vivantes tels que les cristaux, le bois et les cadavres sur la carte, les convertissant ainsi en essence."
+  divineBlessing:
+    name:
+      text: "Bénédiction divine"
+    description:
+      text: "Bénis un villageois, faisant de son prochain enfant né un Néphilim,un enfant béni, avec une force, une dextérité et une durée de vie supérieures."
   summonHolyGolem:
     name:
       text: "Invoquer un saint-golem"
@@ -6888,16 +7181,41 @@ spell:
       text: "Flamber"
     description:
       text: "Enflamme une zone (et tout ce qui se trouve sur le chemin) !"
+  godTower:
+    name:
+      text: "Tour magique"
+    description:
+      text: "Invoque une tour magique d'arc avec des munitions illimitées. Nécessite une influence constante pour être maintenu, réduisant de manière permanente votre influence maximale, mais peuvent être dissipés avec le sort Dissiper une structure magique."
+  godWall:
+    name:
+      text: "Mur magique"
+    description:
+      text: "Invoque un mur magique qui empêchera tous les types de monstres, y compris les spectres, de traverser. Nécessite une influence constante pour être maintenu, réduisant de manière permanente votre influence maximale, mais peuvent être dissipés avec le sort Dissiper une structure magique."
   grab:
     name:
       text: "Attraper"
     description:
       text: "Ramassez des ressources ou des créatures sur la carte. Draine de plus en plus d'essence lorsqu'ils sont maintenus longtemps et tomberont si vous n'en avez plus."
+  harvest:
+    name:
+      text: "Récolte"
+    description:
+      text: "Récolte automatiquement les ressources de la zone, les déposant sur le sol pour que vos villageois les récupèrent rapidement. Assurez-vous de lancer ceci à portée de votre village, sinon personne ne viendra ramasser quoi que ce soit!"
   healingAura:
     name:
       text: "Aura de guérison"
     description:
       text: "Guérit lentement tous les villageois dans la zone pendant une courte période de temps."
+  holyPotatoes:
+    name:
+      text: "Patates magiques"
+    description:
+      text: "Fait jaillir des patates magiques du sol, très pratique si vous venez de manquer de nourriture ou si vous voulez créer une nouvelle zone de récolte ailleurs dans le village!"
+  holyWood:
+    name:
+      text: "bois magiques"
+    description:
+      text: "Fait jaillir des arbres du sol, très pratique si vous venez de manquer de bois ou si vous voulez créer une nouvelle zone de récolte ailleurs dans le village!"
   motivateLand:
     name:
       text: "Motiver les terres"
@@ -7095,28 +7413,33 @@ tileSet:
       name:
         text: "Pommes de terre"
       description:
-        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+    potatoesHoly:
+      name:
+        text: "Patates magiques"
+      description:
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     turnips:
       name:
         text: "Navets"
       description:
-        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     cactus:
       name:
         text: "Cactus"
         forceCount: "true"
       description:
-        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     carrots:
       name:
         text: "Carottes"
       description:
-        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     melons:
       name:
         text: "Pastèques"
       description:
-        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
+        text: "Fournit de la nourriture pour le village, les agriculteurs peuvent les récolter pour créer un stock ou les planter dans une ferme pour commencer ou augmenter la production alimentaire dans le village."
     bricks:
       name:
         text: "Briques"
@@ -7308,46 +7631,116 @@ mobName:
     comment: "This is used in a few rare cases where the game is referencing the mob as a common noun and not a proper noun. Like 'a Skeleton' instead of 'Bob Vance'. For example, 'Bob Vance is attacking a Skeleton' or 'a Skeleton is attacking Bob Vance'"
     text: "un {mobName}"
 
-  villageElder:
+  humanVillagerElder:
     single:
       text: "Doyen"
     plural:
       text: "Doyens"
-  villager:
+  humanVillager:
     single:
       text: "Villageois"
     plural:
       text: "Villageois"
-  child:
+  humanVillagerChild:
     single:
       text: "Enfant"
     plural:
       text: "Enfants"
-  catjeetVillageElder:
+  humanVillagerElderNephilim:
     single:
-      text: "Paysan doyen"
+      text: "Doyen béni"
     plural:
-      text: "Paysans doyens"
+      text: "Doyens bénis"
+  humanVillagerNephilim:
+    single:
+      text: "Villageois béni"
+    plural:
+      text: "Villageois bénis"
+  humanVillagerChildNephilim:
+    single:
+      text: "Enfant béni"
+    plural:
+      text: "Enfants bénis"
+  humanVillagerGhost:
+    single:
+      text: "Fantôme"
+    plural:
+      text: "Fantômes"
+  humanVillagerGhostChild:
+    single:
+      text: "Enfant fantôme"
+    plural:
+      text: "Enfants fantômes"
+  humanVillagerGhostNephilim:
+    single:
+      text: "Fantôme de villageois béni"
+    plural:
+      text: "Fantômes de villageois bénis"
+  humanVillagerGhostChildNephilim:
+    single:
+      text: "Fantôme d'enfant béni"
+    plural:
+      text: "Fantômes d'enfants bénis"
+  catjeetGhostNephilim:
+    single:
+      text: "Fantôme catjeet béni"
+    plural:
+      text: "Fantômes catjeets bénis"
+  catjeetGhostChildNephilim:
+    single:
+      text: "Fantôme d'enfant béni catjeets"
+    plural:
+      text: "Fantôme d'enfants bénis catjeets"
+  catjeetGhost:
+    single:
+      text: "Fantôme catjeet"
+    plural:
+      text: "Fantômes catjeets"
+  catjeetGhostChild:
+    single:
+      text: "Fantôme d'enfant catjeet"
+    plural:
+      text: "Fantômes d'enfants catjeets"
+  catjeetVillagerNephilim:
+    single:
+      text: "villageois béni catjeet"
+    plural:
+      text: "villageois bénis catjeets"
+  catjeetVillagerElder:
+    single:
+      text: "Doyen catjeet"
+    plural:
+      text: "Doyens catjeets"
+  catjeetVillagerElderNephilim:
+    single:
+      text: "Doyen béni catjeet"
+    plural:
+      text: "Doyens bénis catjeets"
   catjeetVillager:
     single:
-      text: "Paysan"
+      text: "villageois catjeet"
     plural:
-      text: "Paysans"
-  catjeetChild:
+      text: "villageois catjeets"
+  catjeetVillagerChild:
     single:
-      text: "Enfant paysan"
+      text: "Enfant catjeet"
     plural:
-      text: "Enfants paysans"
+      text: "Enfants catjeet"
+  catjeetVillagerChildNephilim:
+    single:
+      text: "Enfant catjeet béni"
+    plural:
+      text: "Enfants catjeets bénis"
   catjeetProvisioner:
     single:
-      text: "Provisionneur paysan"
+      text: "Fournisseur catjeet"
     plural:
-      text: "Provisionneurs paysans"
+      text: "Fournisseurs catjeets"
   catjeetLaborer:
     single:
-      text: "Ouvrier paysan"
+      text: "Ouvrier catjeet"
     plural:
-      text: "Ouvriers paysans"
+      text: "Ouvriers catjeets"
   smallSlime:
     single:
       text: "Petit slime"
@@ -7429,16 +7822,6 @@ mobName:
       text: "Squelette"
     plural:
       text: "Squelettes"
-  ghost:
-    single:
-      text: "Fantôme"
-    plural:
-      text: "Fantômes"
-  ghostChild:
-    single:
-      text: "Enfant fantôme"
-    plural:
-      text: "Enfants fantômes"
   ghostDoggo:
     single:
       text: "Chien fantôme"
@@ -7449,16 +7832,6 @@ mobName:
       text: "Chien fantôme stupide"
     plural:
       text: "Chiens fantômes stupides"
-  ghostCatjeet:
-    single:
-      text: "Paysan fantôme"
-    plural:
-      text: "Paysans fantômes"
-  ghostCatjeetChild:
-    single:
-      text: "Enfant paysan fantôme"
-    plural:
-      text: "Enfants paysans fantômes"
   fireElemental:
     single:
       text: "Élément de feu"
@@ -7474,56 +7847,106 @@ mobName:
       text: "Enfant spectre"
     plural:
       text: "Enfants spectres"
-  nomadElder:
+  humanNomadElder:
     single:
       text: "Doyen nomade"
     plural:
       text: "Doyens nomades"
-  nomad:
+  humanNomad:
     single:
       text: "Nomade"
     plural:
       text: "Nomades"
-  departingMigrant:
-    single:
-      text: "Migrant en partance"
-    plural:
-      text: "Migrants en partance"
-  arrivingMigrant:
-    single:
-      text: "Migrant arrivant"
-    plural:
-      text: "Migrants arrivants"
-  nomadChild:
+  humanNomadChild:
     single:
       text: "Enfant nomade"
     plural:
       text: "Enfants nomades"
+  humanNomadElderNephilim:
+    single:
+      text: "Doyen béni nomade"
+    plural:
+      text: "Doyens bénis nomades"
+  humanNomadNephilim:
+    single:
+      text: "Nomade béni"
+    plural:
+      text: "Nomades bénis"
+  humanNomadChildNephilim:
+    single:
+      text: "Enfant béni nomade"
+    plural:
+      text: "Enfants bénis nomades"
+  humanMigrantDeparting:
+    single:
+      text: "Migrant en partance"
+    plural:
+      text: "Migrants en partance"
+  humanMigrantArriving:
+    single:
+      text: "Migrant arrivant"
+    plural:
+      text: "Migrants arrivants"
+  humanMigrantNephilimDeparting:
+    single:
+      text: "Migrant béni en partance"
+    plural:
+      text: "Migrants bénis en partance"
+  humanMigrantNephilimArriving:
+    single:
+      text: "Migrant béni arrivant"
+    plural:
+      text: "Migrants bénis arrivants"
   catjeetNomadElder:
     single:
-      text: "Paysan doyen nomade"
+      text: "Nomade catjeet doyen "
     plural:
-      text: "Paysans doyens nomades"
+      text: "Nomades catjeets doyens"
   catjeetNomad:
     single:
-      text: "Paysan nomade"
+      text: "Nomade catjeet"
     plural:
-      text: "Paysans nomades"
-  departingCatjeetMigrant:
+      text: "Nomades catjeets"
+  catjeetMigrantDeparting:
     single:
-      text: "Paysan migrant en partance"
+      text: "Catjeet migrant en partance"
     plural:
-      text: "Paysans migrants en partance"
-  arrivingCatjeetMigrant:
+      text: "Catjeets migrants en partance"
+  catjeetMigrantArriving:
     single:
-      text: "Paysan migrant arrivant"
+      text: "Catjeet migrant arrivant"
     plural:
-      text: "Paysans migrants arrivants"
+      text: "Catjeets migrants arrivants"
+  catjeetMigrantNephilimDeparting:
+    single:
+      text: "Catjeet migrant béni en partance"
+    plural:
+      text: "Catjeets migrants bénis en partance"
+  catjeetMigrantNephilimArriving:
+    single:
+      text: "Catjeet migrant béni arrivant"
+    plural:
+      text: "Catjeets migrants bénis arrivants"
   catjeetNomadChild:
     single:
-      text: "Enfant paysan nomade"
+      text: "Enfant catjeet nomade"
     plural:
-      text: "Enfants paysans nomades"
+      text: "Enfants catjeets nomades"
+  catjeetNomadNephilim:
+    single:
+      text: "Nomade catjeet béni"
+    plural:
+      text: "Nomades catjeets bénis"
+  catjeetNomadChildNephilim:
+    single:
+      text: "Enfant nomade catjeet béni"
+    plural:
+      text: "Enfants nomades catjeets bénis"
+  catjeetNomadElderNephilim:
+    single:
+      text: "Doyen nomade catjeet béni"
+    plural:
+      text: "Doyens nomades catjeets bénis"
   doggo:
     single:
       text: "Chien"
@@ -7939,7 +8362,7 @@ aiTask:
 
   buyFromProvisioner:
     pathfindToProvisioner:
-      text: "Achète des ressources à $YEL1un paysan provisionneur."
+      text: "Achète des ressources à $YEL1un fournisseur catjeet."
 
   buyLaborer:
     pathfindToLaborer:
@@ -8360,13 +8783,13 @@ aiTask:
 
   sellResource:
     pathfindToResourceOnGround:
-      text: "Rammasse des ressources sur le sol pour les vendre à $YEL1un paysan provisionneur."
+      text: "Rammasse des ressources sur le sol pour les vendre à $YEL1un fournisseur catjeet."
     pathfindToBuilding:
-      text: "Prend des ressources dans {buildingName} pour les vendre à $YEL1un paysan provisionneur."
+      text: "Prend des ressources dans {buildingName} pour les vendre à $YEL1un fournisseur catjeet."
 
   sellResourceInHand:
     pathfindToProvisioner:
-      text: "Livre des ressources à $YEL1un paysan provisionneur."
+      text: "Livre des ressources à $YEL1un fournisseur catjeet."
     pathfindToExtraResource:
       text: "Ramasser des ressources de plantation supplémentaires."
 
@@ -8694,11 +9117,11 @@ mobJob:
 
   provisioner:
     single:
-      text: "Provisionneur"
+      text: "Fournisseur"
     plural:
-      text: "Provisionneurs"
+      text: "Fournisseurs"
     description:
-      text: "Les provisionneurs gèrent les achats et les ventes dans le marché."
+      text: "Les fournisseurs gèrent les achats et les ventes dans le marché."
 
   maintainer:
     single:
@@ -9474,6 +9897,14 @@ object:
         description:
           text: "Augmente le bonus global de vitesse de la fonderie, augmente la capacité de stockage et donne un poste de fondeur."
 
+    godTower:
+      base:
+        name:
+          text: "Tour magique"
+        description:
+          text: "Invoque une tour magique d'arc avec des munitions illimitées. Nécessite une influence constante pour être maintenu, réduisant de manière permanente votre influence maximale, mais peuvent être dissipés avec le sort Dissiper une structure magique"
+
+
     goldStorage:
       small:
         name:
@@ -9894,12 +10325,12 @@ object:
         name:
           text: "Marché"
         description:
-          text: "Augmente le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de provisionneur supplémentaires."
+          text: "Augmente le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de fournisseur supplémentaires."
       established:
         name:
           text: "Marché établi"
         description:
-          text: "Augmente de nouveau le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de provisionneur supplémentaires."
+          text: "Augmente de nouveau le nombre de paysans qui peuvent venir au marché en même temps, augmente aussi la capacité en or et fournit des postes de fournisseur supplémentaires."
 
     migrationWayStation:
       makeshift:
@@ -10383,6 +10814,18 @@ object:
         description:
           text: "Augmente la quantité de bûches, des planches et autres ressources à base de bois que le bâtiment peut contenir au maximum."
 
+    crylithiumWallGateNS:
+      name:
+        text: "Portillon en Crylithium"
+      description:
+        text: "Un simple portillon en crylithium qui peut être utilisé par vos villageois mais pas par les monstres. Ne peut pas non plus être traversé par des spectres."
+
+    crylithiumWallGateWE:
+      name:
+        text: "Portillon en Crylithium"
+      description:
+        text: "Un simple portillon en crylithium qui peut être utilisé par vos villageois mais pas par les monstres. Ne peut pas non plus être traversé par des spectres."
+
     woodFenceGateNS:
       name:
         text: "Portillon en bois"
@@ -10408,11 +10851,26 @@ object:
         text: "Un simple portillon en pierre qui peut être utilisé par vos villageois mais pas par les monstres."
 
   wall:
+    crylithiumCurtainWall:
+      name:
+        text: "Muraille de Crylithium"
+      description:
+        text: "Un mur géant qui à travers lequel il est difficile de passer ou tirer. Empêche les spectres de le traverser! Seules les ballistes peuvent tirer au dessus de ce mur."
+    crylithiumWall:
+      name:
+        text: "Muret de Crylithium"
+      description:
+        text: "Un mur fort au dessus duquel la plupart des tours peuvent tirer. Empêche les spectres de le traverser! Les monstres ne les attaqueront que si ils ne peuvent pas trouver de chemin raisonnable vers le village."
     curtainWall:
       name:
         text: "Muraille"
       description:
         text: "Un mur géant qui à travers lequel il est difficile de passer ou tirer. Seules les ballistes peuvent tirer au dessus de ce mur."
+    godWall:
+      name:
+        text: "Mur magique"
+      description:
+        text: "Un mur magique qui bloque tout ce voudrait passer, mais coûte une partie de votre influence pour le maintenir. Utilisez le sort Dissiper la structure magique pour le supprimer."
     stoneWall:
       name:
         text: "Muret de pierre"
@@ -10559,6 +11017,14 @@ resource:
       text: "Pièces d'or"
     description:
       text: "De l'argent ! Utilisez les pour acheter des choses au marché."
+
+  godDust:
+    single:
+      text: "Poussière magique"
+    plural:
+      text: "Poussières magiques"
+    description:
+      text: "Reste de matériel inutile provenant d'une structure magique détruite."
 
   crystallyTrash:
     single:
